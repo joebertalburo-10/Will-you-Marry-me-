@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, rgb(253, 118, 199), hotpink);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 60px; /* more space below heading */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.pink-btn {
+    background-color: rgb(253, 118, 199);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px; /* more space around buttons */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.pink-btn:hover {
+    background-color: hotpink;
+    transform: scale(1.1);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+#noBtn {
+    position: absolute;
+}
